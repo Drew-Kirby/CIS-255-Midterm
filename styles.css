@@ -124,3 +124,77 @@ h1, h2, h3 {
     background-color: #00f;
     color: #1e1e1e;
 }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #13151b;
+    color: #c7ccd1;
+    border-top: 1px solid #444;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer .social-icons {
+    margin: 10px 0;
+}
+
+footer .social-icons a {
+    margin: 0 10px;
+    color: #c7ccd1;
+}
+
+footer .social-icons a:hover {
+    color: #800080;
+}
+
+.about-me {
+    padding: 40px;
+    margin-bottom: 0px;
+}
+
+.about-me h2 {
+    font-size: 28px;
+    color: #c7ccd1; 
+    margin-bottom: 20px;
+}
+
+.about-text h3 {
+    font-size: 24px;
+    color: #c7ccd1; 
+    margin-top: 50px;
+}
+
+.about-text p {
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.skills, .fun-facts {
+    padding: 40px;
+}
+
+.skills h2, .fun-facts h2 {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.skills-grid, .fun-facts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
