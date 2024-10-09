@@ -63,6 +63,10 @@ h1, h2, h3 {
     text-decoration: none; /* Remove underline from links */
 }
 
+.nav-list li a:hover {
+    color: #800080;
+}
+
 /* Styles for projects section */
 .projects {
     padding: 50px; /* Padding for projects section */
