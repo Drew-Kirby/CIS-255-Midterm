@@ -186,6 +186,11 @@ footer .social-icons a:hover {
     margin-bottom: 20px; /* Space below heading */
 }
 
+.about-text {
+    flex: 1; /* Allow text to take up remaining space */
+    margin-right: 20px; /* Add some spacing between text and image */
+}
+
 /* Styles for about text headings */
 .about-text h3 {
     font-size: 24px; /* Set font size */
@@ -307,5 +312,17 @@ h1::before, h2::before {
 
     li {
         font-size: 8px; /* Even smaller font size for the nav */
+    }
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column; /* Stack the text and image vertically */
+        align-items: center; /* Center align items */
+    }
+
+    .about-image {
+        margin-top: 20px; /* Add spacing above the image when stacked */
     }
 }
