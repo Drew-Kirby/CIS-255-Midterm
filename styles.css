@@ -272,3 +272,40 @@ h1::before, h2::before {
     color: #800080; /* Purple color for hashtag */
     margin-right: 8px; /* Space after hashtag */
 }
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack navbar items vertically */
+        align-items: center; /* Center align items */
+    }
+
+    .navbar a {
+        padding: 0.75rem 1rem; /* Increase padding for easier tapping */
+        text-align: center; /* Center text */
+        width: 100%; /* Full width for navbar items */
+    }
+
+    /* Adjust body font size for smaller screens */
+    body {
+        font-size: 14px; /* Smaller font size */
+    }
+
+    li {
+        font-size: 10px; /* Even smaller font size for the nav */
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 12px; /* Even smaller font size */
+    }
+
+    .navbar a {
+        font-size: 16px; /* Increase navbar link font size */
+    }
+
+    li {
+        font-size: 8px; /* Even smaller font size for the nav */
+    }
+}
