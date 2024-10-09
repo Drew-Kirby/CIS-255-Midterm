@@ -63,6 +63,7 @@ h1, h2, h3 {
     text-decoration: none; /* Remove underline from links */
 }
 
+/* Creates the effect for the items in the Nav to be purple when highlighted */
 .nav-list li a:hover {
     color: #800080;
 }
