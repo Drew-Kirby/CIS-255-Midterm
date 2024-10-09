@@ -18,6 +18,8 @@ header {
     align-items: center;
     padding: 20px 40px;
     background-color: #13151b;
+    position: sticky;
+    top: 0;
 }
 
 h1 {
@@ -238,4 +240,12 @@ h2.hash::before {
 .nav-list li a:before {
     content: "#";
     color: #800080;
+}
+
+.nav-list li a:hover {
+    color: #800080; /* Purple color */
+}
+
+footer .social-icons a:hover {
+    color: #800080; /* Purple color */
 }
